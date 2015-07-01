@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1011]E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\SeleniumGoogle.dll</TopNode>
+  <SelectedNode>[0-1011]E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\SeleniumGoogle.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1011]E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\SeleniumGoogle.dll" Expanded="true" />
+    <Node UniqueName="[0-1012]SeleniumGoogle" Expanded="true" />
+    <Node UniqueName="[0-1000]SeleniumGoogle.GoogleTest" Expanded="true" />
+    <Node UniqueName="[0-1001]SeleniumGoogle.GoogleTest.ThePrueba1Test" Expanded="true" />
+    <Node UniqueName="[0-1006]SeleniumGoogle.GoogleTest.ThePrueba2Test" Expanded="true" />
+  </Nodes>
+</VisualState>

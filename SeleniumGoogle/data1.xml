@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<test>
+  <vars operation="(3*5-3)/2" answer="6" />
+  <vars operation="(3*4-6)/6" answer="1" />
+  <vars operation="(5*4-2)/3" answer="6" />
+  <vars operation="(6*9-4)/5" answer="10" />
+</test>

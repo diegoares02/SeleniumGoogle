@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\SeleniumGoogle.dll" total="8" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-06-30" time="15:33:26">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5420" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="DDC-W7X64" user="Administrator" user-domain="DDC-W7x64" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\SeleniumGoogle.dll" executed="True" result="Success" success="True" time="190.938" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SeleniumGoogle" executed="True" result="Success" success="True" time="190.856" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="GoogleTest" executed="True" result="Success" success="True" time="190.850" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="ThePrueba1Test" executed="True" result="Success" success="True" time="98.791" asserts="0">
+                <results>
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba1Test(&quot;(3*5-3)/2&quot;,&quot;6&quot;)" executed="True" result="Success" success="True" time="29.681" asserts="1" />
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba1Test(&quot;(3*4-6)/6&quot;,&quot;1&quot;)" executed="True" result="Success" success="True" time="23.029" asserts="1" />
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba1Test(&quot;(5*4-2)/3&quot;,&quot;6&quot;)" executed="True" result="Success" success="True" time="23.465" asserts="1" />
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba1Test(&quot;(6*9-4)/5&quot;,&quot;10&quot;)" executed="True" result="Success" success="True" time="22.473" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ThePrueba2Test" executed="True" result="Success" success="True" time="92.001" asserts="0">
+                <results>
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba2Test(&quot;(3*5-3)/0&quot;,&quot;4&quot;)" executed="True" result="Success" success="True" time="24.316" asserts="1" />
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba2Test(&quot;(3*4-6)/0&quot;,&quot;1&quot;)" executed="True" result="Success" success="True" time="22.979" asserts="1" />
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba2Test(&quot;(5*4-2)/0&quot;,&quot;6&quot;)" executed="True" result="Success" success="True" time="20.786" asserts="1" />
+                  <test-case name="SeleniumGoogle.GoogleTest.ThePrueba2Test(&quot;(6*9-4)/0&quot;,&quot;10&quot;)" executed="True" result="Success" success="True" time="23.874" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

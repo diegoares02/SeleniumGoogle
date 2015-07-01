@@ -1,0 +1,11 @@
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\SeleniumGoogle.dll
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\SeleniumGoogle.pdb
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\nunit.framework.dll
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\WebDriver.dll
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\WebDriver.Support.dll
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\nunit.framework.xml
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\WebDriver.xml
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\bin\Debug\WebDriver.Support.xml
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\obj\Debug\SeleniumGoogle.csprojResolveAssemblyReference.cache
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\obj\Debug\SeleniumGoogle.dll
+E:\source\2015-06-09 CodedUI Selenium\SeleniumGoogle\SeleniumGoogle\obj\Debug\SeleniumGoogle.pdb

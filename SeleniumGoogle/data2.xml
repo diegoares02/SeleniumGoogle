@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<test>
-  <vars operation="(3*5-3)/0" answer="4" />
-  <vars operation="(3*4-6)/0" answer="1" />
-  <vars operation="(5*4-2)/0" answer="6" />
-  <vars operation="(6*9-4)/0" answer="10" />
-</test>

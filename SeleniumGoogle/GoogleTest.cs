@@ -2,13 +2,10 @@
 using System.Collections;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
 using System.Xml.Linq;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Support.UI;
 
 namespace SeleniumGoogle
 {
@@ -46,31 +43,22 @@ namespace SeleniumGoogle
         //[Test]
         public void ThePrueba1Test(string operation, string answer)
         {
-            //driver.Navigate().GoToUrl(baseURL + "/search?q=" + operation);
-            //string res = driver.FindElement(By.Id("cwos")).Text;
-            //Assert.AreEqual(answer, res);
-            //driver.FindElement(By.Name("one")).Click();
-            //driver.FindElement(By.Name("plus")).Click();
-            //driver.FindElement(By.Name("two")).Click();
-            //driver.FindElement(By.Name("DoIt")).Click();
             driver.Navigate().GoToUrl(baseURL + "/students/calculators/source/basic.htm");
             Operation(operation);
             driver.FindElement(By.Name("DoIt")).Click();
             IWebElement resElement= driver.FindElement(By.Name("Input"));
-            string res = resElement.Text;
+            string res = resElement.GetAttribute("value");
+            Assert.AreEqual(answer, res);
         }
         [TestCaseSource("Wrong")]
         public void ThePrueba2Test(string operation, string answer)
         {
-            //driver.Navigate().GoToUrl(baseURL + "/search?q=" + operation);
-            //string res = driver.FindElement(By.Id("cwos")).Text;
-            //Assert.AreEqual(answer, res);
             driver.Navigate().GoToUrl(baseURL + "/students/calculators/source/basic.htm");
             Operation(operation);
             driver.FindElement(By.Name("DoIt")).Click();
             IWebElement resElement = driver.FindElement(By.Name("Input"));
-            var tipo = resElement.GetType();
-            string res = resElement.Text;
+            string res = resElement.GetAttribute("value");
+            Assert.AreEqual(answer, res);
         }
         private bool IsElementPresent(By by)
         {
@@ -133,7 +121,7 @@ namespace SeleniumGoogle
         private IEnumerable GetWrongValues()
         {
             var doc =
-               XDocument.Load("E:\\source\\2015-06-09 CodedUI Selenium\\SeleniumGoogle\\SeleniumGoogle\\data2.xml");
+               XDocument.Load("C:\\Users\\Administrator\\Documents\\GitHub\\SeleniumGoogle\\SeleniumGoogle\\Wrong.xml");
             return from vars in doc.Descendants("vars")
                    let operation = vars.Attribute("operation").Value
                    let answer = vars.Attribute("answer").Value
@@ -142,13 +130,14 @@ namespace SeleniumGoogle
         private IEnumerable GetValues()
         {
             var doc =
-                XDocument.Load("E:\\source\\2015-06-09 CodedUI Selenium\\SeleniumGoogle\\SeleniumGoogle\\data1.xml");
+                XDocument.Load("C:\\Users\\Administrator\\Documents\\GitHub\\SeleniumGoogle\\SeleniumGoogle\\Right.xml");
             return from vars in doc.Descendants("vars")
                 let operation = vars.Attribute("operation").Value
                 let answer = vars.Attribute("answer").Value
                 select new object[] {operation, answer};
         }
 
+        #region Operations
         private void Operation(string op)
         {
             foreach (var operation in op)
@@ -228,6 +217,6 @@ namespace SeleniumGoogle
                 }
             }
         }
-
+        #endregion
     }
 }

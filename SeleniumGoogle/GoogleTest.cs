@@ -121,7 +121,7 @@ namespace SeleniumGoogle
         private IEnumerable GetWrongValues()
         {
             var doc =
-               XDocument.Load("C:\\Users\\Administrator\\Documents\\GitHub\\SeleniumGoogle\\SeleniumGoogle\\Wrong.xml");
+               XDocument.Load("Wrong.xml");
             return from vars in doc.Descendants("vars")
                    let operation = vars.Attribute("operation").Value
                    let answer = vars.Attribute("answer").Value
@@ -130,7 +130,7 @@ namespace SeleniumGoogle
         private IEnumerable GetValues()
         {
             var doc =
-                XDocument.Load("C:\\Users\\Administrator\\Documents\\GitHub\\SeleniumGoogle\\SeleniumGoogle\\Right.xml");
+                XDocument.Load("Right.xml");
             return from vars in doc.Descendants("vars")
                 let operation = vars.Attribute("operation").Value
                 let answer = vars.Attribute("answer").Value
